@@ -8,7 +8,7 @@ const Navbar = () => {
           {/* logo */}
           <div className="text-2xl font-bold text-zinc-800">
             <span>THE-</span>
-            <span className="text-teal-800 font-oribiron">ZABAOIT</span>
+            <span className="text-teal-800 font-orbiron">ZABAOIT</span>
           </div>
           {/* menu */}
           <div className="hidden md:flex space-x-8 border border-gray-200 rounded-full py-4 px-10">
