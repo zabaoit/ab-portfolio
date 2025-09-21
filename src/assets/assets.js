@@ -1,3 +1,5 @@
+import { FaGithub, FaNodeJs, FaUsers, FaReact } from "react-icons/fa6";
+import { GrMysql } from "react-icons/gr";
 import profileImg from "../assets/profile.avif";
 import todoApp from "../assets/todoApp.png";
 import laptopShop from "../assets/laptopShop.png";
@@ -7,6 +9,34 @@ export const assets = {
   profileImg,
 };
 export const navMenu = ["Home", "Work", "Skills", "About", "Contact"];
+
+export const skillsData = [
+  {
+    icon: FaReact,
+    title: "Frontend",
+    technologies: ["Html", "Css", "JavaScript", "React", "Tailwindcss", "Bootsrap"],
+  },
+  {
+    icon: FaNodeJs,
+    title: "Backend",
+    technologies: ["Nodejs", "Express", "Rest API"],
+  },
+  {
+    icon: GrMysql,
+    title: "Database",
+    technologies: ["MySQL", "Sql Server", "MongoDB", "Prisma"],
+  },
+  {
+    icon: FaGithub,
+    title: "Tools",
+    technologies: ["Git", "Github", "VS Code", "Postman"],
+  },
+  {
+    icon: FaUsers,
+    title: "Other Skills",
+    technologies: ["Basic UI/UX design", "Soft Skills"],
+  },
+];
 
 export const projectData = [
   {

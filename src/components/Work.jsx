@@ -19,7 +19,7 @@ const Work = () => {
           {projectData.map((project, index) => (
             <div
               key={index}
-              className="group rounded- overflow-hidden hover:shadow-lg transition cursor-pointer border border-gray-200 hover:-translate-y-1 duration-300"
+              className="group rounded overflow-hidden hover:shadow-lg transition cursor-pointer border border-gray-200 hover:-translate-y-1 duration-300"
             >
               <div className="relative flex items-center justify-center ">
                 <img className="w-full h-60 object-cover group-hover:opacity-100" src={project.image} alt="" />
