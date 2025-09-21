@@ -1,14 +1,14 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
-import Project from "../components/Project";
+import Work from "../components/Work";
 
 const Home = () => {
   return (
     <div>
       <Navbar />
       <Hero />
-      <Project />
+      <Work />
     </div>
   );
 };
