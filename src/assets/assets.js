@@ -1,4 +1,4 @@
-import { FaGithub, FaNodeJs, FaUsers, FaReact, FaCode, FaSchool } from "react-icons/fa6";
+import { FaGithub, FaNodeJs, FaUsers, FaReact, FaCode, FaSchool, FaEnvelope, FaFacebook } from "react-icons/fa6";
 import { GrMysql } from "react-icons/gr";
 import profileImg from "../assets/profile.avif";
 import todoApp from "../assets/todoApp.png";
@@ -90,5 +90,20 @@ export const profileData = [
     icon: FaProjectDiagram,
     title: "Projects",
     technologies: ["Academic & Personal Projects (4+)"],
+  },
+];
+
+export const socialLinks = [
+  {
+    icon: FaEnvelope,
+    link: "https://mail.google.com/mail/?view=cm&fs=1&to=nguyengiabao8407@gmail.com",
+  },
+  {
+    icon: FaGithub,
+    link: "https://github.com/zabaoit",
+  },
+  {
+    icon: FaFacebook,
+    link: "https://www.facebook.com/zabaoit",
   },
 ];

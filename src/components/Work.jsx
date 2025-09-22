@@ -36,7 +36,12 @@ const Work = () => {
                     ))}
                   </div>
                 </div>
-                <a href={project.link} className="absolute  gap-2 inline-flex justify-center items-center">
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="absolute  gap-2 inline-flex justify-center items-center"
+                >
                   <img className="w-4 h-4" src={project.icon} alt="" />
                   <span className="text-sm text-slate-700 hover:text-slate-950">Source code</span>
                 </a>
