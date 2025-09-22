@@ -2,7 +2,7 @@ import { projectData } from "../assets/assets";
 
 const Work = () => {
   return (
-    <div id="Work" className="py-20">
+    <div className="py-20">
       <div className="max-w-7xl mx-auto px-6 py-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold text-slate-700 mb-6">

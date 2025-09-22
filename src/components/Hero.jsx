@@ -1,9 +1,10 @@
 import { FaArrowRight } from "react-icons/fa";
 import { assets } from "../assets/assets";
+import { Link } from "react-scroll";
 
 const Hero = () => {
   return (
-    <div id="Home" className="min-h-screen flex items-center pt-16">
+    <div className="min-h-screen flex items-center pt-16">
       <div className="max-w-7xl mx-auto px-6 py-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="text-center lg:text-left">
@@ -17,18 +18,22 @@ const Hero = () => {
               in!
             </p>
             <div className="flex flex-col lg:flex-row items-center gap-4">
-              <a
-                href="#Work"
+              <Link
+                to="Work"
+                smooth={true}
+                duration={500}
                 className="px-10 py-4  bg-black text-slate-200 hover:text-white rounded-full flex items-center gap-2 cursor-pointer"
               >
                 View My Work <FaArrowRight />
-              </a>
-              <a
-                href="#Contact"
+              </Link>
+              <Link
+                to="Contact"
+                smooth={true}
+                duration={500}
                 className="px-10 py-4 border border-slate-400  rounded-full flex items-center gap-2 cursor-pointer hover:border-slate-800 transition duration-300"
               >
                 Contact Me <FaArrowRight />
-              </a>
+              </Link>
             </div>
           </div>
           {/* image setion right side */}

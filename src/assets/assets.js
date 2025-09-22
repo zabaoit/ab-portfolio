@@ -1,9 +1,10 @@
-import { FaGithub, FaNodeJs, FaUsers, FaReact } from "react-icons/fa6";
+import { FaGithub, FaNodeJs, FaUsers, FaReact, FaCode, FaSchool } from "react-icons/fa6";
 import { GrMysql } from "react-icons/gr";
 import profileImg from "../assets/profile.avif";
 import todoApp from "../assets/todoApp.png";
 import laptopShop from "../assets/laptopShop.png";
 import gitHub from "../assets/gitHub.png";
+import { FaProjectDiagram } from "react-icons/fa";
 
 export const assets = {
   profileImg,
@@ -71,5 +72,23 @@ export const projectData = [
     tech: ["Nodejs", "Express", "MySql", "Bootstrap"],
     icon: gitHub,
     link: "https://github.com/zabaoit/node-pro",
+  },
+];
+
+export const profileData = [
+  {
+    icon: FaCode,
+    title: "Language",
+    technologies: ["Javascript"],
+  },
+  {
+    icon: FaSchool,
+    title: "Education",
+    technologies: ["IT Student at Saigon Technology University"],
+  },
+  {
+    icon: FaProjectDiagram,
+    title: "Projects",
+    technologies: ["Academic & Personal Projects (4+)"],
   },
 ];

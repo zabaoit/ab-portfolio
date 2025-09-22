@@ -1,5 +1,7 @@
 import { FaArrowRight } from "react-icons/fa";
 import { navMenu } from "../assets/assets.js";
+import { Link } from "react-scroll";
+
 const Navbar = () => {
   return (
     <div className="fixed w-full py-4 z-50 backdrop-blur-3xl">
@@ -13,9 +15,17 @@ const Navbar = () => {
           {/* menu */}
           <div className="hidden md:flex space-x-8 border border-gray-200 rounded-full py-4 px-10">
             {navMenu.map((item, index) => (
-              <a key={index} href={`#${item}`}>
+              <Link
+                key={index}
+                to={`${item}`}
+                smooth={true}
+                duration={500}
+                spy={true}
+                activeClass="active"
+                className="cursor-pointer hover:font-bold"
+              >
                 {item}
-              </a>
+              </Link>
             ))}
           </div>
           {/* buttons */}

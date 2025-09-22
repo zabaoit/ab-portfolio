@@ -29,3 +29,7 @@ h4 {
 .font-orbiron {
   font-family: "Orbiron";
 }
+
+.active {
+  font-weight: bold;
+}
